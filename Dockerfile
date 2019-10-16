@@ -1,7 +1,7 @@
 FROM adoptopenjdk/openjdk8-openj9:jre
 
 ENV AGENT=agent
-ENV JAVA_OPTS "-Xshareclasses:cacheDir=/tmp/shareclasses -Xscmx256M -Xquickstart"
+ENV JAVA_OPTS "-Xshareclasses:cacheDir=/tmp/shareclasses -Xscmx2G -Xquickstart"
 
 ADD https://www.apache.org/dist/flume/1.9.0/apache-flume-1.9.0-bin.tar.gz /tmp/apache-flume-1.9.0-bin.tar.gz
 
