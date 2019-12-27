@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8-openj9:jre
+FROM adoptopenjdk/openjdk11:alpine-jre
 
 ENV AGENT=agent
 
